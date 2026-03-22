@@ -1,0 +1,222 @@
+/* Container */
+.portfolio-container[b-6b9hbfsvmn] {
+    h2 {
+    text-align: center;
+    text-decoration-color: aqua;
+    text-decoration: wavy;
+    text-decoration-thickness: 9px;
+    font-family: cursive;
+}
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+    font-family: 'Segoe UI'[b-6b9hbfsvmn], sans-serif;
+    background: #050505;[b-6b9hbfsvmn]
+}
+
+/* Card Style */
+.card[b-6b9hbfsvmn] {
+    background: #f9f6f6;
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover[b-6b9hbfsvmn] {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+}
+
+/* Fade-in animation */
+.fade-in[b-6b9hbfsvmn] {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp-b-6b9hbfsvmn 0.6s forwards;
+    animation-delay: 0.2s;
+}
+
+@keyframes fadeInUp-b-6b9hbfsvmn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Skills styling */
+/* Vertical skills container */
+.skills-vertical[b-6b9hbfsvmn] {
+    position: relative;
+    margin-top: 1.5rem;
+    padding-left: 30px;
+}
+
+/* Vertical line */
+.skills-vertical[b-6b9hbfsvmn]::before {
+    content: "";
+    position: absolute;
+    left: 15px;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background: red;
+}
+
+/* Each skill item */
+.skill-item[b-6b9hbfsvmn] {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+/* Circle with image */
+.skill-circle[b-6b9hbfsvmn] {
+    width: 40px;
+    height: 40px;
+    background: black;
+    border: 3px solid red;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: -5px;
+}
+
+/* Image inside circle */
+.skill-circle img[b-6b9hbfsvmn] {
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+}
+
+/* Skill text */
+.skill-item span[b-6b9hbfsvmn] {
+    margin-left: 60px;
+    color: #fff;
+    font-size: 1rem;
+}
+/* Project card */
+.project-card[b-6b9hbfsvmn] {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card img[b-6b9hbfsvmn] {
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.project-card:hover[b-6b9hbfsvmn] {
+    transform: scale(1.03);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.15);
+}
+
+.project-info h3[b-6b9hbfsvmn] {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.project-info p[b-6b9hbfsvmn] {
+    margin: 0.2rem 0;
+    font-size: 0.9rem;
+}
+
+.project-info a[b-6b9hbfsvmn] {
+    color: #0078d7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-info a:hover[b-6b9hbfsvmn] {
+    text-decoration: underline;
+}
+
+.profile-photo[b-6b9hbfsvmn] {
+    width: 150px;           /* controls the size */
+    height: 150px;          /* makes it a square */
+    border-radius: 50%;     /* makes it circular */
+    object-fit: cover;      /* crops and fills the circle nicely */
+    display: block;         /* centers it */
+    margin: 1rem auto;      /* centers horizontally with space */
+    border: 3px solid #142b3e;  /* optional stylish border */
+}
+
+/* Card container */
+.card.led-border[b-6b9hbfsvmn] {
+    position: relative;
+    padding: 1.5rem;
+    border-radius: 15px;
+    background-color: #1e1e1e; /* dark card background */
+    color: #fff;
+    overflow: hidden;
+    z-index: 0;
+}
+
+/* LED border animation */
+.card.led-border[b-6b9hbfsvmn]::before {
+    content: "";
+    position: absolute;
+    inset: 0; /* cover entire card */
+    padding: 3px; /* border thickness */
+    border-radius: 15px;
+    background: conic-gradient(from 0deg, purple, black, white, purple, black, white);
+    -webkit-mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out;
+    mask-composite: exclude;
+    mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+    mask-composite: exclude;
+    z-index: -1;
+    animation: ledAnimation-b-6b9hbfsvmn 4s linear infinite;
+}
+
+/* Smooth rotation animation */
+@keyframes ledAnimation-b-6b9hbfsvmn {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Base card style */
+.card.hover-glow[b-6b9hbfsvmn] {
+    position: relative;
+    padding: 1.5rem;
+    border-radius: 15px;
+    background-color: #1e1e1e; /* dark card background */
+    color: #fff;
+    overflow: hidden;
+    transition: box-shadow 0.4s ease, transform 0.3s ease;
+    border: 2px solid transparent;
+}
+
+/* Hover effect: glow and slightly scale up with purple, black, white */
+.card.hover-glow:hover[b-6b9hbfsvmn] {
+    box-shadow: 
+        0 0 10px purple, 
+        0 0 20px white, 
+        0 0 30px black;
+    transform: scale(1.03);
+    border-color: purple; /* border glows purple */
+}
+
+/* Neon text glow inside on hover */
+.card.hover-glow:hover h2[b-6b9hbfsvmn], 
+.card.hover-glow:hover h3[b-6b9hbfsvmn] {
+    text-shadow: 
+        0 0 5px purple, 
+        0 0 10px white, 
+        0 0 15px black;
+}

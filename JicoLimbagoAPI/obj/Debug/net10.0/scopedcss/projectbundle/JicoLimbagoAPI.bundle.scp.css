@@ -9,8 +9,9 @@ main[b-a2g2tnaxyt] {
     flex: 1;
 }
 
+
 .sidebar[b-a2g2tnaxyt] {
-    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+    background-image: linear-gradient(180deg, rgb(4, 4, 5) 0%, #faf9fb 70%);
 }
 
 .top-row[b-a2g2tnaxyt] {
@@ -97,6 +98,8 @@ main[b-a2g2tnaxyt] {
         right: 0.75rem;
         top: 0.5rem;
     }
+
+    
 /* /Components/Layout/NavMenu.razor.rz.scp.css */
 .navbar-toggler[b-fwut3mx0lf] {
     appearance: none;
@@ -107,7 +110,7 @@ main[b-a2g2tnaxyt] {
     position: absolute;
     top: 0.5rem;
     right: 1rem;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(34, 24, 213, 0.1);
     background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") no-repeat center/1.75rem rgba(255, 255, 255, 0.1);
 }
 
@@ -117,7 +120,7 @@ main[b-a2g2tnaxyt] {
 
 .top-row[b-fwut3mx0lf] {
     min-height: 3.5rem;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(154, 18, 18, 0.4);
 }
 
 .navbar-brand[b-fwut3mx0lf] {
@@ -177,7 +180,7 @@ main[b-a2g2tnaxyt] {
 }
 
 .nav-item[b-fwut3mx0lf]  .nav-link:hover {
-    background-color: rgba(255,255,255,0.1);
+    background-color: rgba(173, 18, 18, 0.1);
     color: white;
 }
 
@@ -360,4 +363,338 @@ main[b-a2g2tnaxyt] {
         height: 80px;
         opacity: 0;
     }
+}
+/* /Components/Pages/Home.razor.rz.scp.css */
+body[b-eykuwn903m] {
+    background: linear-gradient(135deg, #f3e8ff, #9564c9);
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.title[b-eykuwn903m] {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.controls[b-eykuwn903m] {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button[b-eykuwn903m] {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    background: black;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover[b-eykuwn903m] {
+    background: #333;
+}
+
+.quotes-container[b-eykuwn903m] {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.quote-card[b-eykuwn903m] {
+    background: white;
+    color: black;
+    border: 2px solid #ddd;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+body.dark .quote-card[b-eykuwn903m] {
+    background: #1e1e1e;
+    color: white;
+}
+
+.quote-card:hover[b-eykuwn903m] {
+    border-color: black;
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.highlight[b-eykuwn903m] {
+    border: 2px solid black;
+    margin: 20px;
+}
+
+.stars[b-eykuwn903m] {
+    color: gold;
+}
+
+.actions[b-eykuwn903m] {
+    margin-top: 10px;
+}
+
+button.agree[b-eykuwn903m] {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.disagree[b-eykuwn903m] {
+    background: #f44336;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover[b-eykuwn903m] {
+    opacity: 0.8;
+}
+
+.result[b-eykuwn903m] {
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+.quote-card[b-eykuwn903m] {
+    background: rgb(240, 241, 237);
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    padding: 15px;
+    transition: 0.3s;
+}
+/* /Components/Pages/MyInfo.razor.rz.scp.css */
+/* Container */
+.portfolio-container[b-6b9hbfsvmn] {
+    h2 {
+    text-align: center;
+    text-decoration-color: aqua;
+    text-decoration: wavy;
+    text-decoration-thickness: 9px;
+    font-family: cursive;
+}
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+    font-family: 'Segoe UI'[b-6b9hbfsvmn], sans-serif;
+    background: #050505;[b-6b9hbfsvmn]
+}
+
+/* Card Style */
+.card[b-6b9hbfsvmn] {
+    background: #f9f6f6;
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover[b-6b9hbfsvmn] {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+}
+
+/* Fade-in animation */
+.fade-in[b-6b9hbfsvmn] {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp-b-6b9hbfsvmn 0.6s forwards;
+    animation-delay: 0.2s;
+}
+
+@keyframes fadeInUp-b-6b9hbfsvmn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Skills styling */
+/* Vertical skills container */
+.skills-vertical[b-6b9hbfsvmn] {
+    position: relative;
+    margin-top: 1.5rem;
+    padding-left: 30px;
+}
+
+/* Vertical line */
+.skills-vertical[b-6b9hbfsvmn]::before {
+    content: "";
+    position: absolute;
+    left: 15px;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background: red;
+}
+
+/* Each skill item */
+.skill-item[b-6b9hbfsvmn] {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+/* Circle with image */
+.skill-circle[b-6b9hbfsvmn] {
+    width: 40px;
+    height: 40px;
+    background: black;
+    border: 3px solid red;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: -5px;
+}
+
+/* Image inside circle */
+.skill-circle img[b-6b9hbfsvmn] {
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+}
+
+/* Skill text */
+.skill-item span[b-6b9hbfsvmn] {
+    margin-left: 60px;
+    color: #fff;
+    font-size: 1rem;
+}
+/* Project card */
+.project-card[b-6b9hbfsvmn] {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card img[b-6b9hbfsvmn] {
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.project-card:hover[b-6b9hbfsvmn] {
+    transform: scale(1.03);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.15);
+}
+
+.project-info h3[b-6b9hbfsvmn] {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.project-info p[b-6b9hbfsvmn] {
+    margin: 0.2rem 0;
+    font-size: 0.9rem;
+}
+
+.project-info a[b-6b9hbfsvmn] {
+    color: #0078d7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-info a:hover[b-6b9hbfsvmn] {
+    text-decoration: underline;
+}
+
+.profile-photo[b-6b9hbfsvmn] {
+    width: 150px;           /* controls the size */
+    height: 150px;          /* makes it a square */
+    border-radius: 50%;     /* makes it circular */
+    object-fit: cover;      /* crops and fills the circle nicely */
+    display: block;         /* centers it */
+    margin: 1rem auto;      /* centers horizontally with space */
+    border: 3px solid #142b3e;  /* optional stylish border */
+}
+
+/* Card container */
+.card.led-border[b-6b9hbfsvmn] {
+    position: relative;
+    padding: 1.5rem;
+    border-radius: 15px;
+    background-color: #1e1e1e; /* dark card background */
+    color: #fff;
+    overflow: hidden;
+    z-index: 0;
+}
+
+/* LED border animation */
+.card.led-border[b-6b9hbfsvmn]::before {
+    content: "";
+    position: absolute;
+    inset: 0; /* cover entire card */
+    padding: 3px; /* border thickness */
+    border-radius: 15px;
+    background: conic-gradient(from 0deg, purple, black, white, purple, black, white);
+    -webkit-mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out;
+    mask-composite: exclude;
+    mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+    mask-composite: exclude;
+    z-index: -1;
+    animation: ledAnimation-b-6b9hbfsvmn 4s linear infinite;
+}
+
+/* Smooth rotation animation */
+@keyframes ledAnimation-b-6b9hbfsvmn {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Base card style */
+.card.hover-glow[b-6b9hbfsvmn] {
+    position: relative;
+    padding: 1.5rem;
+    border-radius: 15px;
+    background-color: #1e1e1e; /* dark card background */
+    color: #fff;
+    overflow: hidden;
+    transition: box-shadow 0.4s ease, transform 0.3s ease;
+    border: 2px solid transparent;
+}
+
+/* Hover effect: glow and slightly scale up with purple, black, white */
+.card.hover-glow:hover[b-6b9hbfsvmn] {
+    box-shadow: 
+        0 0 10px purple, 
+        0 0 20px white, 
+        0 0 30px black;
+    transform: scale(1.03);
+    border-color: purple; /* border glows purple */
+}
+
+/* Neon text glow inside on hover */
+.card.hover-glow:hover h2[b-6b9hbfsvmn], 
+.card.hover-glow:hover h3[b-6b9hbfsvmn] {
+    text-shadow: 
+        0 0 5px purple, 
+        0 0 10px white, 
+        0 0 15px black;
 }

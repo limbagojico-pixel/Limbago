@@ -23,7 +23,6 @@ C:\Users\COA\OneDrive\Documents\asp\JicoLimbagoAPI\obj\Debug\net10.0\scopedcss\C
 C:\Users\COA\OneDrive\Documents\asp\JicoLimbagoAPI\obj\Debug\net10.0\scopedcss\Components\Layout\ReconnectModal.razor.rz.scp.css
 C:\Users\COA\OneDrive\Documents\asp\JicoLimbagoAPI\obj\Debug\net10.0\scopedcss\bundle\JicoLimbagoAPI.styles.css
 C:\Users\COA\OneDrive\Documents\asp\JicoLimbagoAPI\obj\Debug\net10.0\scopedcss\projectbundle\JicoLimbagoAPI.bundle.scp.css
-C:\Users\COA\OneDrive\Documents\asp\JicoLimbagoAPI\obj\Debug\net10.0\compressed\t3lff31l38-{0}-khy4lop6wu-khy4lop6wu.gz
 C:\Users\COA\OneDrive\Documents\asp\JicoLimbagoAPI\obj\Debug\net10.0\compressed\f81bff8xg3-{0}-bqjiyaj88i-bqjiyaj88i.gz
 C:\Users\COA\OneDrive\Documents\asp\JicoLimbagoAPI\obj\Debug\net10.0\compressed\k1ddh4k1c9-{0}-c2jlpeoesf-c2jlpeoesf.gz
 C:\Users\COA\OneDrive\Documents\asp\JicoLimbagoAPI\obj\Debug\net10.0\compressed\mhv2irwgsc-{0}-erw9l3u2r3-erw9l3u2r3.gz
@@ -71,8 +70,6 @@ C:\Users\COA\OneDrive\Documents\asp\JicoLimbagoAPI\obj\Debug\net10.0\compressed\
 C:\Users\COA\OneDrive\Documents\asp\JicoLimbagoAPI\obj\Debug\net10.0\compressed\mb1p1sw3dw-{0}-abdmv1u4y3-abdmv1u4y3.gz
 C:\Users\COA\OneDrive\Documents\asp\JicoLimbagoAPI\obj\Debug\net10.0\compressed\tanj7kpbve-{0}-ax6tuj8tun-ax6tuj8tun.gz
 C:\Users\COA\OneDrive\Documents\asp\JicoLimbagoAPI\obj\Debug\net10.0\compressed\we3emu0wcj-{0}-zr4b1gdhaw-zr4b1gdhaw.gz
-C:\Users\COA\OneDrive\Documents\asp\JicoLimbagoAPI\obj\Debug\net10.0\compressed\fot9zg0r51-{0}-e921vmr3vk-e921vmr3vk.gz
-C:\Users\COA\OneDrive\Documents\asp\JicoLimbagoAPI\obj\Debug\net10.0\compressed\43ulf99gej-{0}-e921vmr3vk-e921vmr3vk.gz
 C:\Users\COA\OneDrive\Documents\asp\JicoLimbagoAPI\obj\Debug\net10.0\staticwebassets.build.json
 C:\Users\COA\OneDrive\Documents\asp\JicoLimbagoAPI\obj\Debug\net10.0\staticwebassets.build.json.cache
 C:\Users\COA\OneDrive\Documents\asp\JicoLimbagoAPI\obj\Debug\net10.0\staticwebassets.development.json
@@ -83,3 +80,10 @@ C:\Users\COA\OneDrive\Documents\asp\JicoLimbagoAPI\obj\Debug\net10.0\refint\Jico
 C:\Users\COA\OneDrive\Documents\asp\JicoLimbagoAPI\obj\Debug\net10.0\JicoLimbagoAPI.pdb
 C:\Users\COA\OneDrive\Documents\asp\JicoLimbagoAPI\obj\Debug\net10.0\JicoLimbagoAPI.genruntimeconfig.cache
 C:\Users\COA\OneDrive\Documents\asp\JicoLimbagoAPI\obj\Debug\net10.0\ref\JicoLimbagoAPI.dll
+c:\Users\COA\OneDrive\Documents\asp\JicoLimbagoAPI\obj\Debug\net10.0\JicoLimbagoAPI.sourcelink.json
+c:\Users\COA\OneDrive\Documents\asp\JicoLimbagoAPI\obj\Debug\net10.0\scopedcss\Components\Pages\MyInfo.razor.rz.scp.css
+c:\Users\COA\OneDrive\Documents\asp\JicoLimbagoAPI\obj\Debug\net10.0\scopedcss\Components\Pages\Home.razor.rz.scp.css
+c:\Users\COA\OneDrive\Documents\asp\JicoLimbagoAPI\obj\Debug\net10.0\compressed\8u9g9j6bzv-{0}-59nnvdouiy-59nnvdouiy.gz
+c:\Users\COA\OneDrive\Documents\asp\JicoLimbagoAPI\obj\Debug\net10.0\compressed\t3lff31l38-{0}-51c553rsn5-51c553rsn5.gz
+c:\Users\COA\OneDrive\Documents\asp\JicoLimbagoAPI\obj\Debug\net10.0\compressed\fot9zg0r51-{0}-gxe3cva6nl-gxe3cva6nl.gz
+c:\Users\COA\OneDrive\Documents\asp\JicoLimbagoAPI\obj\Debug\net10.0\compressed\43ulf99gej-{0}-gxe3cva6nl-gxe3cva6nl.gz

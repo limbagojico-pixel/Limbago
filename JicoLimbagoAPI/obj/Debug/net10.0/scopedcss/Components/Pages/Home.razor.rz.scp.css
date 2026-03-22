@@ -1,0 +1,110 @@
+body[b-eykuwn903m] {
+    background: linear-gradient(135deg, #f3e8ff, #9564c9);
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.title[b-eykuwn903m] {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.controls[b-eykuwn903m] {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button[b-eykuwn903m] {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    background: black;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover[b-eykuwn903m] {
+    background: #333;
+}
+
+.quotes-container[b-eykuwn903m] {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.quote-card[b-eykuwn903m] {
+    background: white;
+    color: black;
+    border: 2px solid #ddd;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+body.dark .quote-card[b-eykuwn903m] {
+    background: #1e1e1e;
+    color: white;
+}
+
+.quote-card:hover[b-eykuwn903m] {
+    border-color: black;
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.highlight[b-eykuwn903m] {
+    border: 2px solid black;
+    margin: 20px;
+}
+
+.stars[b-eykuwn903m] {
+    color: gold;
+}
+
+.actions[b-eykuwn903m] {
+    margin-top: 10px;
+}
+
+button.agree[b-eykuwn903m] {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.disagree[b-eykuwn903m] {
+    background: #f44336;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover[b-eykuwn903m] {
+    opacity: 0.8;
+}
+
+.result[b-eykuwn903m] {
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+.quote-card[b-eykuwn903m] {
+    background: rgb(240, 241, 237);
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    padding: 15px;
+    transition: 0.3s;
+}

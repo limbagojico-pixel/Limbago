@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JicoLimbagoAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92ea00f3c99568a60e2cb19a77bbf66614ba9034")]
 [assembly: System.Reflection.AssemblyProductAttribute("JicoLimbagoAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JicoLimbagoAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
